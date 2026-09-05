@@ -120,10 +120,11 @@
 
 /* Hero Section */
 .hero-container {
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 278px;
+  justify-content: space-between;
+  /* gap: 278px; */
   align-items: center;
   padding: 136px 80px;
   background:
