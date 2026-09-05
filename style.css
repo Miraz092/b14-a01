@@ -134,19 +134,31 @@
   background-position: center;
 }
 
-.hero-container h1 {
+.hero-text-wrap h1 {
   font-size: 80px;
   font-weight: 700;
   line-height: 56px;
   color: #ffffff;
 }
 
-.hero-container p {
+.hero-text-wrap p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+
   font-size: 22px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  color: #ffffff;
-  margin-top: 16px;
+  line-height: 28px;
+
+  max-width: 830px;
+  margin-top: 40px;
+}
+
+.hero-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Meet Our Speakers */
